@@ -37,7 +37,7 @@ const Client = () => {
               docked: "true",
               height: "300px",
               width: "400px",
-              defaultID: "agent", //default UID (user) or GUID (group) to show,
+              defaultID: process.env.REACT_APP_AGENT_ID, //default UID (user) or GUID (group) to show,
               defaultType: "user", //user or group
             });
             setLoad(false);
@@ -53,7 +53,7 @@ const Client = () => {
             docked: "true",
             height: "300px",
             width: "400px",
-            defaultID: "agent", //default UID (user) or GUID (group) to show,
+            defaultID: process.env.REACT_APP_AGENT_ID, //default UID (user) or GUID (group) to show,
             defaultType: "user", //user or group
           });
           setLoad(false);
