@@ -1,6 +1,6 @@
 # Build a Customer Support Live Chat Widget with React
 
-This demo app shows how to build an Android group chat app with React:
+This demo app shows how to build a Chat widget with React and CometChat:
 
 ![ss1](/screenshots/ss1.png)
 ![ss2](/screenshots/ss2.png)
