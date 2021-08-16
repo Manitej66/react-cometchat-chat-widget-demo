@@ -16,7 +16,7 @@ const Agent = () => {
     }).then(
       (response) => {
         console.log("Initialization completed successfully");
-        //You can now call login function.
+        // You can now call login function.
         window.CometChatWidget.login({
           uid: agentUID,
         }).then(

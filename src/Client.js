@@ -60,6 +60,14 @@ const Client = () => {
         });
       }
     });
+
+    return () => {
+      window.CometChatWidget.logout().then((response) => {
+        document
+          .querySelectorAll("#cometchat__widget")
+          .forEach((el) => el.remove());
+      });
+    };
   }, []);
 
   if (load) {
